@@ -55,6 +55,7 @@ public class QuickSort implements Sort<Integer> {
 				count++;
 			}
 		}
+		list.set(left, pivot);
 		return left;
 	}
 }
